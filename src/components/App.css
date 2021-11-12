@@ -6,10 +6,15 @@
   overflow: scroll;
 }
 
+body {
+  background-image: linear-gradient(0deg, rgb(236, 179, 93), white);
+  background-repeat: no-repeat;
+}
+
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(85, 85, 85);
   color: white;
   grid-column: 1 / span 2;
   padding: 10px 5px;
@@ -35,7 +40,11 @@ article {
 }
 
 nav {
-  background-color: #dee9ff;
+  background-image: linear-gradient(0deg, rgb(121, 58, 58), white);
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-color: rgb(85, 85, 85);
 }
 
 nav p:hover {
@@ -49,6 +58,10 @@ article .date {
 
 article .body {
   white-space: break-spaces;
+}
+
+img {
+  height: 22px;
 }
 
 .error {
